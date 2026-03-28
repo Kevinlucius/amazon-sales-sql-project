@@ -5,17 +5,6 @@ This project analyzes an e-commerce sales dataset using SQL.
 The goal is to clean raw transactional data and extract business insights such as revenue trends, product performance, and geographic distribution.
 
 ---
-## 📂 Project Structure
-
-amazon-sales-sql-project/
-│
-├── sql/
-│   ├── 1_data_import.sql
-│   ├── 2_data_cleaning.sql
-│   └── 3_eda.sql
-│
-├── sales.csv
-└── README.md
 
 ## 🛠️ Tools
 - MySQL (MySQL Workbench)
