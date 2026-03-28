@@ -5,6 +5,17 @@ This project analyzes an e-commerce sales dataset using SQL.
 The goal is to clean raw transactional data and extract business insights such as revenue trends, product performance, and geographic distribution.
 
 ---
+## 📂 Project Structure
+
+amazon-sales-sql-project/
+│
+├── sql/
+│   ├── 1_data_import.sql
+│   ├── 2_data_cleaning.sql
+│   └── 3_eda.sql
+│
+├── sales.csv
+└── README.md
 
 ## 🛠️ Tools
 - MySQL (MySQL Workbench)
@@ -63,6 +74,8 @@ The goal is to clean raw transactional data and extract business insights such a
 - The *kurta* category dominates total sales
 - A small number of SKUs drive a large portion of revenue
 - Most orders are successfully shipped, indicating strong fulfillment performance
+- Monthly revenue peaked in May 2022
+- Most orders fall in price range 300–600 INR
 
 ## Setup Instructions
 
